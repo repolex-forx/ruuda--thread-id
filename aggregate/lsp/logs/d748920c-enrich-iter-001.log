@@ -1,0 +1,16 @@
+[2026-11-22T14:20:50Z] === ENRICH ITERATION 1 START | repo=ruuda/thread-id sha=d748920c ===
+[2026-11-22T14:20:50Z] [iter=1] PHASE START: enrich repo=ruuda/thread-id sha=d748920c runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/d748920c-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/d748920c9547d5fa35143813aa9f40f13446ca83.nq.gz
+[2026-11-22T14:20:50Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=76 MB
+[2026-11-22T14:20:50Z] [iter=1] AST store loaded triples=3160 load_secs=0 mem_mb=86 MB
+[2026-11-22T14:20:50Z] [iter=1] Step 2: Finding LSP targets mem_mb=86 MB
+[2026-11-22T14:20:50Z] [iter=1] LSP targets found call_sites=19 imports=2 extends=0 implements=0 secs=0
+[2026-11-22T14:20:50Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=87 MB
+[2026-11-22T14:20:50Z] [iter=1] Position index built positions=229 nodes_with_types=263 secs=0 mem_mb=87 MB
+[2026-11-22T14:20:50Z] [iter=1] Step 3: Starting LSP resolution mem_mb=87 MB already_completed_types=[] already_completed_files=0
+[2026-11-22T14:20:50Z] [iter=1] Resolving target type target_type=call_site count=19
+[2026-11-22T14:21:05Z] [iter=1] Target type resolved target_type=call_site resolved=15 errors=0 secs=15 mem_mb=88 MB
+[2026-11-22T14:21:05Z] [iter=1] Resolving target type target_type=import_statement count=2
+[2026-11-22T14:21:10Z] [iter=1] Target type resolved target_type=import_statement resolved=2 errors=0 secs=5 mem_mb=88 MB
+[2026-11-22T14:21:14Z] [iter=1] Step 5: Writing final enrichment file triples=222
+[2026-11-22T14:21:14Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/d748920c9547d5fa35143813aa9f40f13446ca83.nq.gz size_kb=2
+[2026-11-22T14:21:14Z] [iter=1] PHASE END: enrich elapsed_s=24 elapsed_min=0.4 total_triples=222
