@@ -1,0 +1,32 @@
+{
+  "manifest_version": "1.0",
+  "org": "ruuda",
+  "repo": "thread-id",
+  "versions": [
+    {
+      "commit": "d748920c9547d5fa35143813aa9f40f13446ca83",
+      "parsed_at": "2026-11-22T14:16:53.160548+00:00",
+      "tag": "v5.1.0",
+      "filetree": "filetree/d748920c9547d5fa35143813aa9f40f13446ca83.nq.gz",
+      "blobs": [
+        "blob/2d6e4805152eba3833325555f12c4fdfd32b96b0.nq.gz",
+        "blob/61413eeec22eb2165f72a248fb25da89f7141a0a.nq.gz",
+        "blob/b1547d964015362d2ecd870305421335b4883781.nq.gz",
+        "blob/be6492af5b9d106e6358f12fdfcec4f5224d3d26.nq.gz",
+        "blob/880b5358a248ea5856cc80051da877eb8d2446dd.nq.gz",
+        "blob/e9908ac20cff62272c4fa030842621e6eba67d8c.nq.gz",
+        "blob/21b6333b92208b0c333787528a17eadda83b1cf0.nq.gz",
+        "blob/9a5cf3016deaf5b50e463c679449fec38afb3232.nq.gz",
+        "blob/f814c20dd591d805d8f2c20fca2db32963395cfa.nq.gz",
+        "blob/91d3aa967f42ec7e3c600d27344d8e730c8a5740.nq.gz",
+        "blob/d645695673349e3947e8e5ae42332d0ac3164cd7.nq.gz",
+        "blob/f49be8d92102e9f105909826db3f424123e7986d.nq.gz"
+      ]
+    }
+  ],
+  "commit": "commit/commit.nq.gz",
+  "branch": "branch/branch.nq.gz",
+  "tag": "tag/tag.nq.gz",
+  "issue": "issue/issue.nq.gz",
+  "pr": "pr/pr.nq.gz"
+}
